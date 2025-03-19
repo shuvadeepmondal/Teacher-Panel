@@ -10,7 +10,6 @@ import { ReactComponent as ArrowUpIcon } from "./arrow-up.svg?react";
 import { ReactComponent as ArrowDownIcon } from "./arrow-down.svg?react";
 import { ReactComponent as FolderIcon } from "./folder.svg?react";
 import { ReactComponent as VideoIcon } from "./videos.svg?react";
-import { ReactComponent as AudioIcon } from "./audio.svg?react";
 import { ReactComponent as GridIcon } from "./grid.svg?react";
 import { ReactComponent as FileIcon } from "./file.svg?react";
 import { ReactComponent as DownloadIcon } from "./download.svg?react";
@@ -60,7 +59,6 @@ export {
   DownloadIcon,
   FileIcon,
   GridIcon,
-  AudioIcon,
   VideoIcon,
   BoltIcon,
   PlusIcon,
