@@ -1,7 +1,6 @@
 export default function TeacherMetrics() {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-4 md:gap-2">
-      {/* <!-- Metric Item Start --> */}
       <div className="rounded-2xl border border-gray-200 bg-white p-3 dark:border-gray-800 dark:bg-white/[0.03] md:p-3">
 
         <div className="flex items-end justify-between p-3">
@@ -18,9 +17,7 @@ export default function TeacherMetrics() {
           </div>
         </div>
       </div>
-      {/* <!-- Metric Item End --> */}
 
-      {/* <!-- Metric Item Start --> */}
       <div className="rounded-2xl border border-gray-200 bg-white p-3 dark:border-gray-800 dark:bg-white/[0.03] md:p-3">
 
         <div className="flex items-end justify-between p-3">

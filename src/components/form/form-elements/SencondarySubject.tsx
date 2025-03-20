@@ -42,7 +42,7 @@ export default function SecondarySubject() {
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
 
   return (
-    <ComponentCard title="Primary Subject Selection">
+    <ComponentCard title="Secondary Subject Selection">
       <div className="space-y-6">
         <div>
           <Label>Select Secondary Subject</Label>
