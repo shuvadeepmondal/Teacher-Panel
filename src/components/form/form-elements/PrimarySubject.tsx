@@ -43,6 +43,7 @@ export default function PrimarySubject() {
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
 
   return (
+    <div>
     <ComponentCard title="Primary Subject Selection">
       <div className="space-y-6">
         <div>
@@ -78,7 +79,38 @@ export default function PrimarySubject() {
             Selected Values: {selectedValues.join(", ")}
           </p>
         </div>
+        <div>
+          <Label>Select Secondary Subject</Label>
+          <Select
+            options={options}
+            placeholder="Select an subject"
+            onChange={handleSelectChange}
+            className="dark:bg-dark-900"
+          />
+        </div>
+        <div>
+          <Label>Choose Your Availability</Label>
+          <Select
+            options={dayselection}
+            placeholder="Choose your day"
+            onChange={handleSelectChange}
+            className="dark:bg-dark-900"
+          />
+        </div>
+        <div>
+          <MultiSelect
+            label="Preffered Time Slot"
+            options={multiOptions}
+            defaultSelected={["1", "3"]}
+            onChange={(values) => setSelectedValues(values)}
+          />
+          <p className="sr-only">
+            Selected Values: {selectedValues.join(", ")}
+          </p>
+        </div>
       </div>
     </ComponentCard>
+
+    </div>
   );
 }
