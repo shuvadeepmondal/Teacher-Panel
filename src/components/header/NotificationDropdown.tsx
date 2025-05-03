@@ -87,7 +87,7 @@ export default function NotificationDropdown() {
                 <img
                   width={40}
                   height={40}
-                  src="/images/user/"
+                  src="/user.png"
                   alt="User"
                   className="w-full overflow-hidden rounded-full"
                 />

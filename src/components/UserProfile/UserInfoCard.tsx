@@ -51,17 +51,17 @@ export default function UserInfoCard() {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-7">
             <div>
               <p className="mb-2 text-xs text-gray-500 dark:text-gray-400">First Name</p>
-              <p className="text-sm font-medium text-gray-800 dark:text-white/90">Kalua</p>
+              <p className="text-sm font-medium text-gray-800 dark:text-white/90">Puskar</p>
             </div>
 
             <div>
               <p className="mb-2 text-xs text-gray-500 dark:text-gray-400">Last Name</p>
-              <p className="text-sm font-medium text-gray-800 dark:text-white/90">Mbc</p>
+              <p className="text-sm font-medium text-gray-800 dark:text-white/90">Roy</p>
             </div>
 
             <div>
               <p className="mb-2 text-xs text-gray-500 dark:text-gray-400">Email address</p>
-              <p className="text-sm font-medium text-gray-800 dark:text-white/90">sutradhartuman69@gmail.com</p>
+              <p className="text-sm font-medium text-gray-800 dark:text-white/90">puskarroy@uitbuniv.ac.in</p>
             </div>
 
             <div>

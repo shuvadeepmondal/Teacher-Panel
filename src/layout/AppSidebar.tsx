@@ -39,7 +39,10 @@ const navItems: NavItem[] = [
   {
     name: "Forms",
     icon: <ListIcon />,
-    subItems: [{ name: "Semester Setup", path: "/semester_setup", pro: false }],
+    subItems: [{ name: "Semester Setup", path: "/semester_setup", pro: false },
+      { name: "Class Request", path: "/class_request",}
+    ],
+    
   },
   {
     name: "Routine",
