@@ -83,7 +83,7 @@ export default function WeeklyClasschart() {
   const series = [
     {
       name: "Classes",
-      data: [10, 5, 2, 3, 10, 4],
+      data: [6, 5, 2, 3, 5, 4],
     },
   ];
   const [isOpen, setIsOpen] = useState(false);

@@ -9,7 +9,7 @@ export default function TeacherMetrics() {
               Total Classes
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              35
+              20
             </h4>
             <span className="text-sm text-gray-500 dark:text-gray-400">
               in this week
@@ -26,7 +26,7 @@ export default function TeacherMetrics() {
               Total Classes
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              10
+              6
             </h4>
             <span className="text-sm text-gray-500 dark:text-gray-400">
               today
@@ -43,7 +43,7 @@ export default function TeacherMetrics() {
               Pending Classes
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              20
+              14
             </h4>
             <span className="text-sm text-gray-500 dark:text-gray-400">
               in this week
@@ -56,10 +56,10 @@ export default function TeacherMetrics() {
         <div className="flex items-end justify-between p-3">
           <div>
             <span className="text-lg text-gray-500 dark:text-gray-400">
-              Total Classes
+              Completed Classes
             </span>
             <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
-              2
+              3
             </h4>
             <span className="text-sm text-gray-500 dark:text-gray-400">
               today
