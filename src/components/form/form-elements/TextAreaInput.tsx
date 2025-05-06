@@ -4,6 +4,7 @@ import TextArea from "../input/TextArea";
 import Input from "../input/InputField";
 import Label from "../Label";
 
+
 export default function TextAreaInput() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
@@ -70,6 +71,12 @@ export default function TextAreaInput() {
           />
         </div> */}
       </div>
+      <div className="pt-4">
+                  <button
+                    className="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-70"
+                  > Submit
+                  </button>
+                </div>
     </ComponentCard>
   );
 }

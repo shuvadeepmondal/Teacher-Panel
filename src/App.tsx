@@ -7,6 +7,7 @@ import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 import Login from "./components/auth/Login";
+import Classrequest from "./pages/Forms/Classrequest";
 
 export default function App() {
   return (
@@ -24,6 +25,8 @@ export default function App() {
             <Route path="/calendar" element={<Calendar />} />
 
             <Route path="/semester_setup" element={<FormElements />} />
+
+            <Route path="/class_request" element={<Classrequest/>} />
 
 
 

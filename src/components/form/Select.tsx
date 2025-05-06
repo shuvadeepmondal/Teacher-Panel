@@ -10,6 +10,8 @@ interface SelectProps {
   placeholder?: string;
   onChange: (value: string) => void;
   className?: string;
+  value?: string;
+  disabled?: boolean; 
   defaultValue?: string;
 }
 
