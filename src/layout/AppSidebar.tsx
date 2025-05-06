@@ -39,7 +39,10 @@ const navItems: NavItem[] = [
   {
     name: "Forms",
     icon: <ListIcon />,
-    subItems: [{ name: "Semester Setup", path: "/semester_setup", pro: false }],
+    subItems: [{ name: "Semester Setup", path: "/semester_setup", pro: false },
+      { name: "Class Request", path: "/class_request",}
+    ],
+    
   },
   {
     name: "Routine",
@@ -241,10 +244,10 @@ const AppSidebar: React.FC = () => {
         <Link to="/">
           {isExpanded || isHovered || isMobileOpen ? (
             <>
-              <h1 className="text-2xl  font-bold">Project SAGE</h1>
+              <h1 className="text-2xl dark:text-gray-200 font-bold">SAGE</h1>
             </>
           ) : (
-        <h2 className="text-2xl  font-bold">SAGE</h2>
+        <h2 className="text-2xl dark:text-gray-200 font-bold">SAGE</h2>
           )}
         </Link>
       </div>
